@@ -1,0 +1,27 @@
+.App{
+  display: grid;
+  place-items:center;
+  height:100vh;
+  background-color: #dadbd3;
+}
+
+.app__body{
+  display: flex;
+  background-color:#ededed;
+  margin-top: -50px;
+  height: 87vh;
+  width: 94vw;
+  box-shadow:-1px 4px 20p -6px rgba(0,0,0,0.75);
+}
+
+.login__container > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 40px;
+}
+.login__container > button {
+  margin-top: 50px;
+  text-transform: inherit !important;
+  background-color: #0a8d48 !important;
+  color:white; 
+}
